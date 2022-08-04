@@ -2,8 +2,10 @@ package com.BikkadIT.StudentDatabase.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="Student_Details")
 public class Student {
 @Id
 	private String name;
