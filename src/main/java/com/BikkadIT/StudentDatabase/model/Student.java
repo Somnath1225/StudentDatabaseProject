@@ -33,6 +33,16 @@ public class Student {
 	public String toString() {
 		return "Student [name=" + name + ", email=" + email + ", id=" + id + "]";
 	}
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Student(String name, String email, Integer id) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.id = id;
+	}
 	
 	
 	
